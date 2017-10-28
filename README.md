@@ -12,3 +12,5 @@ If you're using a modern browser (Chrome, Firefox, Edge, the latest Safari) You 
 
 - [Variables](https://github.com/dusty-learning/learnyoues6/blob/master/variables)
 - [Arrow Functions](https://github.com/dusty-learning/learnyoues6/blob/master/arrow-functions)
+- [Parameters](https://github.com/dusty-learning/learnyoues6/blob/master/parameters)
+- [Spread Operator](https://github.com/dusty-learning/learnyoues6/blob/master/spread-operator)
