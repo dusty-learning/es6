@@ -8,7 +8,7 @@ MDN link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Stat
 
 ## What are Classes?
 
-The best comparison within JavaScript to a class is building out a js file using the `prototype` throughout JS the `class` addition tries to somewhat give the wildwest style of development in JavaScript a structure to follow did it succeed? Ehhhhhhhhhhh...
+The best comparison within JavaScript to a class is probably `constructors` and `prototypes` the `class` addition tries to somewhat give this wildwest style of development in JavaScript a structure to follow did it succeed? Ehhhhhhhhhhh...
 
 ## Usage
 
@@ -26,7 +26,7 @@ class name [extends] {
 
 That's it. We can all go home now.
 
-Kidding, so this would be called the same way a constructor would, using `new` so `new name()` would call this class and give us back whatever it created/does.
+Kidding, so this would be called the same way a `constructor` would, using `new` so `new name()` would call this class and give us back whatever it created/does.
 
 So it should be obvious that you can't have classes of the same name existing in the same app. So you we created another `class name` somewhere we would get a `typeError` response.
 
@@ -110,4 +110,4 @@ class Square extends Polygon {
 Yup. It's essentially another `this`. Yup. That's totally what we needed... Totatlly... What.. Was... _Sigh_
 
 
-Essentially thats a class, it's just a glorified OOP style, that built off of constructors and how they ~~don't~~ work
+Essentially that's a class, it should feel pretty familiar with constructors like before. The class's mission in a way was to sort of replace that with a more "official" way of handling it.
