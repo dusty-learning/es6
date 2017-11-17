@@ -64,3 +64,74 @@ isTheOvenReady(400)
 - We are using a `.then()` and `.catch()` to listen for the promise to end
 - If the `resolve` is called, our `.then` will trigger
 - If the `reject` is called our `.catch` will trigger
+
+## So What Is the Benefit?
+
+The benefit to using Promises is to escape callback hell, nested callbacks within nested callbacks etc.
+
+Promises allow you to simply chain `.then()` as you go through your list of promises, as well as allowing you to simply use a `Promise.all()` which will execute promises in a consecutive order. Keeping things together in case certain promises require data from others.
+
+So lets check out an example... So here is an example talking to several apis, heres how we can achieve it using callbacks
+
+```js
+api(function(result){
+    api2(function(result2){
+        api3(function(result3){
+             // do work
+        });
+    });
+});
+```
+
+Now here's one way to handle it with a promise
+
+```js
+api().then(result => {
+    return api2();
+}).then(result2 => {
+    return api3();
+}).then(result3 => {
+     // do work
+});
+
+// Say each api relied on the results of the previous, you could do something like:
+
+api()
+.then(api2)
+.then(api3)
+.then(results => {
+  // Do Work
+});
+```
+
+An even better way
+
+```js
+api()
+.then(api2)
+.then(api3)
+.then(results => {
+  // Do Work
+})
+.catch(function(error) {
+     // Handle any error that may occur before this point
+})
+.then(() => {
+     // Do something whether there was an error or not
+     // Like hiding an spinner if you were performing an AJAX request.
+});
+```
+
+And of course a way using the `Promise.all()` functionality
+
+```js
+Promise.all([api(), api2(), api3()]).then(result => {
+    // Do work
+    // Result is an array contains the values of the three fulfilled promises.
+}).catch(function(error) {
+    // Handle the error. At least one of the promises rejected.
+});
+
+```
+
+Not only is a promise cleaner, but handling the flow of your code is also an added benefit when working with a promise.
