@@ -135,3 +135,53 @@ PI > 3.0;
 ```
 
 Pretty awesome right?
+
+## Working in Real Time
+
+So say we have a loop in ES5 that runs through a set of code
+
+```js
+for (var i = 0; i < 5; i++) {
+  setTimeout(function () {
+    console.log(i); // output: 5, 5, 5, 5, 5
+  }, 100);
+}
+```
+
+So our output when using var just prints out 5 over and over, because the variable i changes to 5 before the timeouts are ran. Imagine this loop is going through increasing by 1, but remember, i is constantly changing, because `var` is hoisted, so by the time your timeouts run, i is equal to 5 because the loop has finished.
+
+However using that with let its a bit different
+
+```js
+for (let i = 0; i < 5; i++) {
+  setTimeout(function () {
+    console.log(i); // output: 0, 1, 2, 3, 4
+  }, 100);
+}
+```
+
+So now, we get the right output. But why?
+
+Well, it's because everytime this loop is run, we are creating a `setTimeout` at that point in the loop so we don't need to worry about `i` being overwritten within the `setTimeouts` function, think of it like this
+
+```js
+for (let i = 0; i < 5; i++) { //  <-- let i = 1;
+  setTimeout(function () { // <-- call setTimeout
+    console.log(i); // <-- When timeout ends call this log i === 1
+  }, 100);
+}
+```
+
+And then the loop continues, into the next:
+
+**THIS IS THE NEXT STAGE OF THE LOOP I AM NOT RECREATING OR RESETTING ANYTHING HERE**
+
+```js
+for (let i = 1; i < 5; i++) { //  <-- let i = 2;
+  setTimeout(function () { // <-- call setTimeout
+    console.log(i); // <-- When timeout ends call this log i === 2
+  }, 100);
+}
+```
+
+Each instance the loop runs, the `i` is reset to a `let` variable, and then given to the `setTimeouts` callback it then moves onto the next portion of the loop doing the same thing, this is why our output is `0, 1, 2, 3, 4` instead of `5, 5, 5, 5, 5`
