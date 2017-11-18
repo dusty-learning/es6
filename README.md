@@ -4,6 +4,8 @@ Or also known as ECMAScript 6 which is the current standard of JavaScript before
 
 This repos purpose is to give you a run down quickly of what exactly es6 introduces, and how to use it.
 
+Do note that this is on going, we've currently only touched the tip of the iceburg for some of the features in ES6
+
 ## Following along
 
 If you're using a modern browser (Chrome, Firefox, Edge, the latest Safari) You can open up your dev tools and follow some of the examples right in your console since these browsers support es6 features.
