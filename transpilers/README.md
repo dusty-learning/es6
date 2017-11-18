@@ -42,4 +42,14 @@ var thing = 'cool';
 var other = 'thing';
 ```
 
+An example for say arrow functions might look like:
+
+```js
+// in
+const squares = numbers.map( n => n * n );
+
+// out
+var squares = numbers.map( function ( n ) { return n * n; } );
+```
+
 Pretty simple right? This is essentially a transpilers job. 
