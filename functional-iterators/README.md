@@ -2,6 +2,8 @@
 
 Functional Iterators help make life better in JavaScript essentially elimnating the need of looping.
 
+All of the below iterators support IE 9 or greater.
+
 **First off I want to say that Functional Iterators were not a thing added in ES6, they've been around since ES5 and have browser support as far back as IE9. However others seem to think that they were introduced with ES6, there for I am also adding them in**
 
 **Functional Iterators only work with Iterable types like Arrays but thats all you really should be looping**
@@ -114,9 +116,23 @@ const reformattedArray = objArr.map(({ key, value }) => {
 //  {key: 3, value: 30}]
 ```
 
+## every
+
+`every` is a functional iterator which loops through every value and runs a logic check against it, and returns true or false, depending on if every value passed the logic check out not. 
+
+Here's a little example:
+
+```js
+const values = [1, 2, 3, 4, 5, 6];
+
+values.every(val => val > -1); // Returns true
+values.every(val => val > 3); // Returns false
+```
+
 ## Sources (MDN)
 
 - [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
 - [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Map)
 - [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 - [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+- [every](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
