@@ -10,8 +10,13 @@ Do note that this is on going, we've currently only touched the tip of the icebu
 
 If you're using a modern browser (Chrome, Firefox, Edge, the latest Safari) You can open up your dev tools and follow some of the examples right in your console since these browsers support es6 features.
 
+## More Info
+
+If you would like to see a working example added to the repo please feel free either open an issue or message me on the slack channel about it and I will happily create one!
+
 ## Content
 
+- [Transpilers](https://github.com/dusty-learning/learnyoues6/blob/master/transpilers)
 - [Variables](https://github.com/dusty-learning/learnyoues6/blob/master/variables)
 - [Arrow Functions](https://github.com/dusty-learning/learnyoues6/blob/master/arrow-functions)
 - [Parameters](https://github.com/dusty-learning/learnyoues6/blob/master/parameters)
