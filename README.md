@@ -21,6 +21,7 @@ This is an on going concept as stated above.
 ## Content
 
 - [Transpilers](https://github.com/dusty-learning/learnyoues6/blob/master/transpilers)
+- [Functional Iterators](https://github.com/dusty-learning/learnyoues6/blob/master/functional-iterators)
 - [Variables](https://github.com/dusty-learning/learnyoues6/blob/master/variables)
 - [Arrow Functions](https://github.com/dusty-learning/learnyoues6/blob/master/arrow-functions)
 - [Parameters](https://github.com/dusty-learning/learnyoues6/blob/master/parameters)
