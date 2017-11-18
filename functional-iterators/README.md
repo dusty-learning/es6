@@ -116,6 +116,21 @@ const reformattedArray = objArr.map(({ key, value }) => {
 //  {key: 3, value: 30}]
 ```
 
+## filter
+
+The filter Iterator allows us to loop through results and filter out only the data we want to use/see this also does not mutate the original array!
+
+```js
+const objArr = [{key: 1, value: 10},
+          {key: 2, value: 20},
+          {key: 3, value: 30}];
+const results = objArr.filter(val => val.key > 2);
+
+console.log(results);
+// Output:
+// [{key: 3, value: 30}]
+```
+
 ## every
 
 `every` is a functional iterator which loops through every value and runs a logic check against it, and returns true or false, depending on if every value passed the logic check out not. 
