@@ -78,3 +78,4 @@ this.nums.map(val => {
 
 Notice how we are able to then use the same `this` within our callback function? It really helps to avoid scope getting out of hand or all over the place.
 
+Other than the slight differences with this, and the syntax changes (Which are completely optional) you can treat arrow functions exactly the same we we would treat regular traditional functions.
