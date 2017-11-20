@@ -14,7 +14,7 @@ If you're using a modern browser (Chrome, Firefox, Edge, the latest Safari) You 
 
 If you would like to see a working example added to the repo please feel free either open an issue or message me on the slack channel about it and I will happily create one!
 
-If you have a question that you didn't feel was answered, do the same open an issue with your question and I will do my best to provide an answer and then add it to the repo! 
+If you have a question that you didn't feel was answered, do the same open an issue with your question and I will do my best to provide an answer and then add it to the repo!
 
 This is an on going concept as stated above.
 
@@ -30,4 +30,5 @@ This is an on going concept as stated above.
 - [Classes](https://github.com/dusty-learning/learnyoues6/blob/master/classes)
 - [Destructuring](https://github.com/dusty-learning/learnyoues6/blob/master/destructuring)
 - [Import & Export](https://github.com/dusty-learning/learnyoues6/blob/master/import-export)
+- [Better Object Properties](https://github.com/dusty-learning/learnyoues6/blob/master/object-properties)
 - [String Template Literals](https://github.com/dusty-learning/learnyoues6/blob/master/string-template-literals)
