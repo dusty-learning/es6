@@ -4,7 +4,7 @@ Functional Iterators help make life better in JavaScript essentially elimnating 
 
 All of the below iterators support IE 9 or greater.
 
-**First off I want to say that Functional Iterators were not a thing added in ES6, they've been around since ES5 and have browser support as far back as IE9. However others seem to think that they were introduced with ES6, there for I am also adding them in**
+**First off some new iterators were added in es6 but the most used ones have been around since ES5 which support as far bas as IE9 (The below are supported)**
 
 **Functional Iterators only work with Iterable types like Arrays but thats all you really should be looping**
 
@@ -133,7 +133,7 @@ console.log(results);
 
 ## every
 
-`every` is a functional iterator which loops through every value and runs a logic check against it, and returns true or false, depending on if every value passed the logic check out not. 
+`every` is a functional iterator which loops through every value and runs a logic check against it, and returns true or false, depending on if every value passed the logic check out not.
 
 Here's a little example:
 

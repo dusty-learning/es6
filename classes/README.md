@@ -2,13 +2,13 @@
 
 So with the introduction of ES6 there was also added support for "classes"
 
-As a functional developer I will tell you to avoid these as they only need to headache and bad practice. However as a provider of education I will try to help you understand them, though that might be hard because I avoid them so much I don't really understand them.
+As a functional developer I will tell you to avoid these as they only need to headache and bad practice. However as a provider of education I will try to help you understand them.
 
 MDN link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class
 
 ## What are Classes?
 
-The best comparison within JavaScript to a class is probably `constructors` and `prototypes` the `class` addition tries to somewhat give this wildwest style of development in JavaScript a structure to follow did it succeed? Ehhhhhhhhhhh...
+The best comparison within JavaScript to a class is probably `constructors` and `prototypes` the `class` addition tries to somewhat give this wildwest style of development in JavaScript a structure to follow. Did it succeed in it's mission? Sort of.
 
 ## Usage
 
@@ -107,7 +107,7 @@ class Square extends Polygon {
 }
 ```
 
-Yup. It's essentially another `this`. Yup. That's totally what we needed... Totatlly... What.. Was... _Sigh_
+Yup. It's essentially another `this`. That's totally what we needed... Totatlly... What.. Was... _Sigh_
 
 
 Essentially that's a class, it should feel pretty familiar with constructors like before. The class's mission in a way was to sort of replace that with a more "official" way of handling it.
