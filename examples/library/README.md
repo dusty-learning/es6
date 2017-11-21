@@ -1,6 +1,6 @@
 # Library
 
-This implements basically everything this repo has shown you. I consider this a "Hard" example to read over since a whole lot of stuff is going on at the same time here.
+This implements basically everything this repo has shown you. I consider this a **Hard** example to read over since a whole lot of stuff is going on at the same time here.
 
 This example is of a library I pulled directly out of one of my own projects ([DustyJs](https://github.com/dhershman1/dustyjs))
 

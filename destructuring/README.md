@@ -85,5 +85,10 @@ const test = myObj.test;
 
 ## Working Code Example
 
-You can find the working code example here: [Destructuring](https://github.com/dusty-learning/learnyoues6/blob/master/examples/destructuring)
+You can checkout the `index.js` file within the example folder to see a working example, to run the example on your machine:
+
+- Clone this Repo
+- Navigate to this folder in the terminal
+- `cd` into the example folder
+- Run `node index.js` to run the example
 
