@@ -82,3 +82,8 @@ const { test } = myObj;
 
 const test = myObj.test;
 ```
+
+## Working Code Example
+
+You can find the working code example here: [Destructuring](https://github.com/dusty-learning/learnyoues6/blob/master/examples/destructuring)
+
