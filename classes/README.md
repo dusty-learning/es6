@@ -109,5 +109,6 @@ class Square extends Polygon {
 
 Yup. It's essentially another `this`. That's totally what we needed... Totatlly... What.. Was... _Sigh_
 
+**ANYWAY**
 
 Essentially that's a class, it should feel pretty familiar with constructors like before. The class's mission in a way was to sort of replace that with a more "official" way of handling it.
