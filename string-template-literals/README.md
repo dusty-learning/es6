@@ -20,7 +20,7 @@ const template = `I am building ${thing}s for something`;
 
 Notice the primary differences here?
 
-To start a template string you use the backtick `` `  instead of a single or double quote, in order to place your variable into your string you wrap the name of your variable with `${}` and boom your inserting data right into your string with ease!
+To start a template string you use the backtick instead of a single or double quote, in order to place your variable into your string you wrap the name of your variable with `${}` and boom your inserting data right into your string with ease!
 
 Now remember when I said these also respect whitespace? Well that means
 

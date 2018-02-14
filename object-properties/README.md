@@ -40,17 +40,23 @@ So creating dynamic object property names has become a little easier with this n
 var obj = {
   thing: 'cool'
 };
+var example = 'other';
 
-obj['other' + foobar()] = 'thing';
+obj[example] = 'thing';
+
+console.log(obj); // => { thing: 'cool', other: 'thing' }
 ```
 
 And now with ES6 you are able to do this:
 
 ```js
+const example = 'other';
 const obj = {
   thing: 'cool',
-  [ 'other' + foobar() ]: 'thing'
+  [example]: 'thing'
 };
+
+console.log(obj); // => { thing: 'cool', other: 'thing' }
 ```
 
 The main downside to this is it sort of removes your ability to search for code. However so is the original way. The choice is yours to use this or not.
@@ -64,10 +70,10 @@ Originally to create a method using es5:
 ```js
 var obj = {
   foo: function (a, b) {
-
+    // Cool Action Code
   },
   bar: function (a ,b) {
-
+    // Cool Action Code
   }
 };
 ```
@@ -77,10 +83,10 @@ Using this shorthand with es6 it quickly becomes this:
 ```js
 const obj = {
   foo (a, b) {
-
+    // Cool Action Code
   },
   bar (a, b) {
-
+    // Cool Action Code
   }
 };
 ```

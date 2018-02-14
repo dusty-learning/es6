@@ -2,9 +2,13 @@
 
 These examples are considered to be working examples that you can easily run just using `node` on the JavaScript file. Their main objective is to give you a working example that you can freely tinker around with and modify to your hearts content to hopefully help in giving you a better understanding of the ES6 version of JavaScript.
 
-## How To Run Examples
+## How To Use The Library Example
 
-**Important** The below will work for every example **BESIDES** The library example since it is built as a functional library you need to build a test file that will import and use the library and then run node on **THAT** file.
+The library example is more of a list of functional helpers you can play with, this is a good example of using imports you can import the example and use all of its functions, you can either look at the source code to see what functions you can use, or you can `console.log` the value you import it as to see a list of functions that get brought in.
+
+## How To Run Other Examples
+
+**NOTE Currently None Exist make requests for what you want to see!**
 
 - Clone this Repo
 - Go into the repo folder

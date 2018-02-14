@@ -10,6 +10,8 @@ Do note that this is on going, we've currently only touched the tip of the icebu
 
 If you're using a modern browser (Chrome, Firefox, Edge, the latest Safari) You can open up your dev tools and follow some of the examples right in your console since these browsers support es6 features.
 
+You can also copy and paste the examples into either the browser console. OR into your own .js file and use node to run it for example: I have a file called examples.js I can paste an example from here into that file and then use `node examples.js` to run it. (So long as you are in the same directory as examples.js of course)
+
 ## More Info
 
 If you would like to see a working example added to the repo please feel free either open an issue or message me on the slack channel about it and I will happily create one!

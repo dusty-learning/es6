@@ -185,12 +185,3 @@ for (let i = 1; i < 5; i++) { //  <-- let i = 2;
 ```
 
 Each instance the loop runs, the `i` is reset to a `let` variable, and then given to the `setTimeouts` callback it then moves onto the next portion of the loop doing the same thing, this is why our output is `0, 1, 2, 3, 4` instead of `5, 5, 5, 5, 5`
-
-## Working Code Example
-
-You can checkout the `index.js` file within the example folder to see a working example, to run the example on your machine:
-
-- Clone this Repo
-- Navigate to this folder in the terminal
-- `cd` into the example folder
-- Run `node index.js` to run the example
