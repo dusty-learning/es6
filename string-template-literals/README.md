@@ -1,5 +1,7 @@
 # String Template Literals
 
+MDN Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+
 Ever wanted an easier way to dynamically create strings instead of having to concat all the time and worry about the order you are concatting, and the requirement to make everything flow just perfectly to get your string?
 
 Well welcome to String Template Literals!

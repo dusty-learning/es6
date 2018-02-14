@@ -1,5 +1,7 @@
 # Arrow Functions
 
+MDN link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+
 The next prominent feature I'm sure you've seen through ES6 is the use of arrow functions
 
 Arrow functions give us the ability to create single line functions, simpler methods, and simpler function expressions all in a little arrow.
@@ -53,7 +55,7 @@ var results = nums.map(function (val) {
 });
 ```
 
-## Lexical This
+## "Lexical" This
 
 What I mean by this is if you are in need to use the `this` keyword your scoping won't go all bonkers, and you no longer need to do that silly setter of `var self = this;` all the time.
 
@@ -79,12 +81,3 @@ this.nums.map(val => {
 Notice how we are able to then use the same `this` within our callback function? It really helps to avoid scope getting out of hand or all over the place.
 
 Other than the slight differences with this, and the syntax changes (Which are completely optional) you can treat arrow functions exactly the same we we would treat regular traditional functions.
-
-## Working Code Example
-
-You can checkout the `index.js` file within the example folder to see a working example, to run the example on your machine:
-
-- Clone this Repo
-- Navigate to this folder in the terminal
-- `cd` into the example folder
-- Run `node index.js` to run the example

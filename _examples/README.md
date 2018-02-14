@@ -8,8 +8,6 @@ The library example is more of a list of functional helpers you can play with, t
 
 ## How To Run Other Examples
 
-**NOTE Currently None Exist make requests for what you want to see!**
-
 - Clone this Repo
 - Go into the repo folder
 - Go into the examples folder

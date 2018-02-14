@@ -2,13 +2,15 @@
 
 So with the introduction of ES6 there was also added support for "classes"
 
-As a functional developer I will tell you to avoid these as they only need to headache and bad practice. However as a provider of education I will try to help you understand them.
+As a functional developer I will tell you to avoid these and try not to use them. However as an education provider I will do my best to help you understand what they are and how they do to the best of my ability.
 
 MDN link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class
 
 ## What are Classes?
 
-The best comparison within JavaScript to a class is probably `constructors` and `prototypes` the `class` addition tries to somewhat give this wildwest style of development in JavaScript a structure to follow. Did it succeed in it's mission? Sort of.
+The best comparison within JavaScript to a class is probably `constructors` and `prototypes` the `class` addition tries to somewhat give this wildwest style of development in JavaScript a structure to follow. Did it succeed in it's mission? For the most part
+
+Classes add a much easier way to do all of these things, though I don't use any of these things I can safely say they have made it better.
 
 ## Usage
 

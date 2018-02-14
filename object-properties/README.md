@@ -2,6 +2,8 @@
 
 So ES6 added better or "Enhanced" object properties giving us a wider variety in ways to use them.
 
+MDN Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer
+
 ## Property Shorthand
 
 The first thing being proerty short hands. This allows us to set properties in our object that were saved as variables in the script somewhere. Really helpful for properties that follow the same name.

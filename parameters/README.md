@@ -6,6 +6,8 @@ Like the ability to set default parameter values, or the ability to use Rest Syn
 
 ## Rest Syntax
 
+MDN Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters
+
 So we can use that `...` as a paramter for a function in this case though it is known as the `rest syntax` because what it really means is the "rest" of the parameters
 
 here's an example:
@@ -42,6 +44,8 @@ In the above examples `2` was our `multiplier` while `1, 2, 3, 4` were our param
 Pretty sweet right?
 
 ## Default Parameter Values
+
+MDN link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters
 
 Another thing you can do with paramters is make sure they have a default value if they are not passed in. Helping you avoid pesky undefined errors when a user doesn't use your function correctly, or allowing you to use a function in different ways.
 

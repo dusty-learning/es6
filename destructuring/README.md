@@ -1,5 +1,7 @@
 # Destructuring
 
+MDN Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+
 ES6 added the ability which is called `destructuring` which essentially allows us to quickly set variables to values inside of `arrays` or `objects`
 
 ## Destructuring Arrays

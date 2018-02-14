@@ -2,6 +2,8 @@
 
 Promises are probably one of nicest additions with ES6, the ability to get rid of callback hell is a nice feeling.
 
+MDN Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
 ## What is a promise
 
 The best way to think of a promise is to think of it the same way you would imagine a normal callback. Only much more organized and way easier to use.

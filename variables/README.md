@@ -4,6 +4,8 @@ One of the more prominent introductions from ES6 is the introduction of `const` 
 
 ## const
 
+MDN Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const
+
 As you may have guessed, `const` is essentially a `constant` meaning it's value will never change, and it becomes immutable.
 
 If you set an object to a const you can still add and change properties within that object, the same thing goes for arrays, if you set a number or a string to a const you will not be able to change it however.
@@ -16,6 +18,8 @@ test++; // Will throw an error
 ```
 
 ## let
+
+MDN Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
 
 `let` allows you to set a variable in which you plan to change completely later on, generally you will want to try and stick with const to keep your data immutable, but lets work well for say loops, or small meta changes.
 

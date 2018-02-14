@@ -6,11 +6,11 @@ Imports and Exports are the official JavaScript standard module system that has 
 
 ## Exports
 
+A lot of the below you will also find at MDN
+
+MDN Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export
+
 So lets start with exports, because you can't have an import, without an export.
-
-First off a lot of this will be similar to the MDN read you can find here:
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export
 
 This is a good batch of info on using export.
 
@@ -84,7 +84,7 @@ But what about that `export * from '...'` one? Well we will cover that with our 
 
 Imports well, import what we export!
 
-MDN page: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
+MDN Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
 
 All the ways to run an import statement:
 
