@@ -17,6 +17,28 @@ test = 1; // Will throw an error
 test++; // Will throw an error
 ```
 
+The key to keep in mind with `const` is that its constant in the sense the datas type does not change, and that the data is not overwritten/reset completely.
+
+Which means you can do something like this with `const`
+
+```javascript
+const x = [];
+
+x.push(1);
+
+console.log(x); // => [1]
+
+// The same applie to objects
+
+const y = {};
+
+y.test = 'thing';
+
+console.log(y); // => { test: 'thing' }
+```
+
+With simple types this does not work because you are changing/resetting the data much like with increment it adds 1 and then sets the value to the variable. So in turn "overwritting" it, which is why `const` won't allow it.
+
 ## let
 
 MDN Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
