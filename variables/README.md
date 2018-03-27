@@ -140,7 +140,7 @@ PI > 3.0;
 
 Pretty awesome right?
 
-## Working in Real Time
+## Working in Real Time (More advanced concepts might be confusing at first glance)
 
 So say we have a loop in ES5 that runs through a set of code
 

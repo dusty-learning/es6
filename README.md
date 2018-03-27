@@ -1,4 +1,4 @@
-# ES6
+# ES6 (ES2015)
 
 Or also known as ECMAScript 6 which is the current standard of JavaScript before ES2017 becomes official.
 

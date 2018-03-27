@@ -130,6 +130,7 @@ And of course a way using the `Promise.all()` functionality
 Promise.all([api(), api2(), api3()]).then(result => {
     // Do work
     // Result is an array contains the values of the three fulfilled promises.
+    // So for example it would be [resultsFromApi1, resultsFromApi2, resultsFromApi3]
 }).catch(function(error) {
     // Handle the error. At least one of the promises rejected.
 });
