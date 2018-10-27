@@ -29,10 +29,10 @@ const var = arr[1];
 But say we wanted to skip the middle value so we could get our last one?
 
 ```js
-const [my,, var] = ['new', 'one', 'test'];
+const [my,, thing] = ['new', 'one', 'test'];
 
 console.log(my); // Output: 'new'
-console.log(var); // Output: 'test'
+console.log(thing); // Output: 'test'
 ```
 
 We just leave the center value blank but make sure to place the extra commma, this skips the middle value of one to get us back test.
@@ -40,10 +40,10 @@ We just leave the center value blank but make sure to place the extra commma, th
 You can skip any value you need.
 
 ```js
-const [,my, var] = ['new', 'one', 'test'];
+const [,my, thing] = ['new', 'one', 'test'];
 
 console.log(my); // Output: 'one'
-console.log(var); // Output: 'test'
+console.log(thing); // Output: 'test'
 ```
 
 Pretty nifty right?
