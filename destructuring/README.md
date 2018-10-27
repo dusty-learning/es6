@@ -9,10 +9,10 @@ ES6 added the ability which is called `destructuring` which essentially allows u
 The concept here is pretty easy. So let's take a look
 
 ```js
-const [my, var] = ['new', 'one', 'test'];
+const [my, thing] = ['new', 'one', 'test'];
 
 console.log(my); // Output: 'new'
-console.log(var); // Output: 'one'
+console.log(thing); // Output: 'one'
 ```
 
 Catch on what we did there? We created two new variables from our array of values. This follows the index, the good news here is that you can name the vars whatever you want.
