@@ -85,6 +85,25 @@ const { test } = myObj;
 const test = myObj.test;
 ```
 
+You can also change the data to a new name when you destruct an object, like so:
+
+```js
+// So we have our object as we had above
+const myObj = { test: 'Features' }
+// But we already have a const called test!
+const test = 'foo'
+
+// Don't worry! we can destruct the object to a different name if we need to!
+const { test: baz } = myObj
+
+console.log(test) // => 'foo'
+console.log(baz) // => 'Features
+```
+
+Notice the formation here, it is identical to the normal object key value pair. In this case it goes
+
+`DataProp: NewVarNAme` so whatever the name of the property you want is on the left side of the colon and the new name is on the right side of the colon.
+
 ## Working Code Example
 
 You can checkout the `index.js` file within the example folder to see a working example, to run the example on your machine:
