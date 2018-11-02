@@ -62,7 +62,7 @@ What I mean by this is if you are in need to use the `this` keyword your scoping
 Here's an example:
 
 ```js
-// Tradionally
+// Traditionally
 var self = this;
 this.nums.map(function(val) {
   if (val > 2) {
