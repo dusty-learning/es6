@@ -24,7 +24,7 @@ const isTheOvenReady = ovenAtRightTemp => new Promise((resolve, reject) => {
 });
 ```
 
-- Take not that we are using the new keyword here
+- Take note that we are using the new keyword here
 - Also take note that the main parameter of the Promise is a function
     - This function gets 2 functions as parameters, one ends the promise as a success, the other as an error
 - If our condition is met we resolve with our value of `the oven is ready`
